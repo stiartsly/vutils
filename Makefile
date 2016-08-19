@@ -57,7 +57,7 @@ clean:
 	$(RM) $(OBJS)
 	$(RM) libvutils.a
 
-install: libgetopt.a
+install: libvutils.a
 	mkdir -p $(INSTALL_PREFIX)/include
 	mkdir -p $(INSTALL_PREFIX)/lib
 	$(INSTALL) src/vlist.h $(INSTALL_PREFIX)/include
